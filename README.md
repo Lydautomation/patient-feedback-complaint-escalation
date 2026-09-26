@@ -49,6 +49,50 @@ The system can automatically send an appropriate response to the patient, while 
 9. Complaints requiring attention are escalated through Slack.
 10. The healthcare team reviews escalated complaints and determines the appropriate follow-up.
 
+## Project Screenshots
+
+### Main Workflow Overview
+
+The main n8n workflow manages the patient feedback process from submission and AI analysis to feedback routing, patient communication, record keeping, and complaint escalation.
+
+![Patient Feedback Workflow Overview](screenshots/patient-feedback-workflow-overview.png)
+
+### Positive Feedback Submission
+
+A patient submits positive feedback through the feedback form.
+
+![Positive Feedback Form](screenshots/positive-feedback-form.png)
+
+### Positive Feedback Patient Response
+
+After the positive feedback is processed, the patient receives an appropriate automated email response.
+
+![Positive Feedback Patient Email](screenshots/positive-feedback-patient-email.png)
+
+### Negative Feedback Submission
+
+A patient submits negative feedback or a complaint through the feedback form.
+
+![Negative Feedback Form](screenshots/negative-feedback-form.png)
+
+### Negative Feedback Patient Response
+
+After the complaint is processed, the patient receives an appropriate automated email acknowledging the feedback.
+
+![Negative Feedback Patient Email](screenshots/negative-feedback-patient-email.png)
+
+### Complaint Escalation
+
+Complaints requiring attention are escalated through Slack, providing the relevant information to the team for human review and follow-up.
+
+![Complaint Escalation Slack Notification](screenshots/complaint-escalation-slack-notification.png)
+
+### Feedback Records
+
+Positive and negative feedback records are stored in Google Sheets, providing a centralized record for tracking and review.
+
+![Patient Feedback Records Google Sheets](screenshots/patient-feedback-records-google-sheets.png)
+
 ## Human-in-the-Loop Design
 
 The workflow is designed to support patient experience processes rather than replace human judgment.
