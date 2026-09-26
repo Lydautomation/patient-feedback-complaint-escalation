@@ -49,6 +49,12 @@ The system can automatically send an appropriate response to the patient, while 
 9. Complaints requiring attention are escalated through Slack.
 10. The healthcare team reviews escalated complaints and determines the appropriate follow-up.
 
+## System Design
+
+The system design shows the architecture, AI feedback analysis, positive and negative feedback routing, patient communication, complaint escalation, human review, and privacy considerations behind the Patient Feedback & Complaint Escalation Workflow.
+
+[**View Patient Feedback System Design**](docs/patient-feedback-system-design.pdf)
+
 ## Demo
 
 Watch the Patient Feedback & Complaint Escalation Workflow in action, from patient feedback submission and AI analysis to positive or negative routing, automated patient communication, and complaint escalation for human review.
