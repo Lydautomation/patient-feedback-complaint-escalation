@@ -59,7 +59,7 @@ The system design shows the architecture, AI feedback analysis, positive and neg
 
 Watch the Patient Feedback & Complaint Escalation Workflow in action, from patient feedback submission and AI analysis to positive or negative routing, automated patient communication, and complaint escalation for human review.
 
-[**Watch Patient Feedback & Complaint Escalation Demo**](https://youtu.be/ZygTYZ6hqZY?si=czBRoERfQ9RUv9aG)
+[**Watch Patient Feedback & Complaint Escalation Demo**](https://www.loom.com/share/66db688a1f2848de9ae25b8d71478385)
 
 ## Project Screenshots
 
